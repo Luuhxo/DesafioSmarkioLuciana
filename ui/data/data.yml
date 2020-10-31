@@ -1,0 +1,6 @@
+dev:
+  site: 'https://www.google.com.br'
+hom: 
+  site: 'https://www.facebook.com'
+prod:
+  site: 'https://www.kabum.com.br'

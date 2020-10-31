@@ -1,0 +1,122 @@
+[
+  {
+    "uri": "features/Kabum.feature",
+    "id": "testar-o-site-kabum.",
+    "keyword": "Funcionalidade",
+    "name": "Testar o site Kabum.",
+    "description": "",
+    "line": 4,
+    "comments": [
+      {
+        "value": "# encode: UTF-8",
+        "line": 2
+      }
+    ],
+    "elements": [
+      {
+        "id": "testar-o-site-kabum.;validar-se-o-produto-selecionado-foi-enviado-para-o-carrinho.",
+        "keyword": "Cenario",
+        "name": "Validar se o produto selecionado foi enviado para o carrinho.",
+        "description": "",
+        "line": 7,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@desafio",
+            "line": 6
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37100
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31700
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12207659600
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "Entrei no site Kabum",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/step_kabum.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2638082800
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "realizei uma pesquisa",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/step_kabum.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4043818800
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "selecionar o produto",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/step_kabum.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5092507000
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "o mesmo será encaminhado ao carrinho",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/step_kabum.rb:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3051098500
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-2.18.0/lib/capybara/cucumber.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206981200
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

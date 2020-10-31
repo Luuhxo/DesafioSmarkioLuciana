@@ -1,0 +1,4 @@
+campo_pesquisa: 'input[class="sprocura"]'
+botao_buscar: 'input[id="bt-busca"]'
+botao_compra: 'div[class="sc-AxhCb dghWOt"]'
+label_carrinho: 'span[id="carrinho-qtda-produtos"]'
